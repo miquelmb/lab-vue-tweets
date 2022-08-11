@@ -1,10 +1,10 @@
 <template>
   <div class="app">
-    <Tweet />
+    <Tweet v-for="(tweet, index) in tweets" :key="index" :user="tweet.user" :timestamp="tweet.timestamp" :message="tweet.message" />
   </div>
 </template>
 
-<script>
+<script> 
 
 import Tweet from './components/Tweet.vue';
 
