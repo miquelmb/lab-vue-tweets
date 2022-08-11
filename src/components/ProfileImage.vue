@@ -2,14 +2,14 @@
   <img
     :src='image'
     className="profile"
-     alt="profile"/>
+    alt="profile"/>
 </template>
 
 <script>
 export default {
     name:'ProfileImage',
     props:{
-        image: String,
+      image: String,
     }
 }
 </script>

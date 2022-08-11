@@ -11,6 +11,7 @@
       <Actions/>
     </div>
     <i class="fas fa-ellipsis-h"></i>
+    
   </div>
 
 </template>
@@ -28,7 +29,7 @@ export default {
     timestamp: String,
     message: String,
     user: Object,
-    },
+  },
   components: {
     ProfileImage,
     User,
